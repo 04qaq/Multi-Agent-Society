@@ -1,5 +1,6 @@
-from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Literal
+
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class LLMProviderConfig(BaseSettings):
@@ -50,11 +51,7 @@ class SchedulerConfig(BaseSettings):
 
 
 class AppConfig(BaseSettings):
-    model_config = SettingsConfigDict(
-        env_nested_delimiter="__",
-        env_file=".env",
-        yaml_file="configs/global.yaml",
-    )
+    model_config = SettingsConfigDict(env_nested_delimiter="__", env_file=".env")
 
     app_name: str = "Multi-Agent Society"
     debug: bool = True

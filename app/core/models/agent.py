@@ -20,12 +20,14 @@ class AgentStatus(str):
 
 
 class Agent(BaseModel):
+    model_config = {"arbitrary_types_allowed": True}
+
     id: str
     name: str
     avatar: str = ""
     persona: str = ""
     status: str = AgentStatus.OFFLINE
-    model_config: ModelConfig = ModelConfig()
+    llm_config: ModelConfig = ModelConfig()
     psychology_profile: str = ""
     groups: list[str] = Field(default_factory=list)
     created_at: datetime = Field(default_factory=datetime.now)

@@ -29,7 +29,7 @@ class AgentRuntime:
         self._recent_messages: list[Message] = []
 
     async def initialize(self) -> None:
-        self._llm = llm_router.get_provider(self._agent.model_config)
+        self._llm = llm_router.get_provider(self._agent.llm_config)
         self._mood_strategy = LlmMoodStrategy(self._llm)
         self._prompt_builder = PromptBuilder(
             profile=self._profile,

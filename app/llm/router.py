@@ -1,4 +1,4 @@
-from app.core.models.agent import ModelConfig
+from app.core.models.agent import ModelConfig as AgentModelConfig
 from app.core.config import config
 from app.llm.base import LLMProvider
 from app.llm.providers.openai import OpenAIProvider
@@ -25,14 +25,14 @@ class LLMRouter:
             )
         raise ValueError(f"Unsupported provider: {provider_name}")
 
-    def get_provider(self, model_config: ModelConfig) -> LLMProvider:
-        key = f"{model_config.provider}:{model_config.model}"
+    def get_provider(self, model_cfg: AgentModelConfig) -> LLMProvider:
+        key = f"{model_cfg.provider}:{model_cfg.model}"
         if key not in self._providers:
             self._providers[key] = self._build_provider(
-                provider_name=model_config.provider,
-                base_url=model_config.base_url,
-                api_key=model_config.api_key,
-                model=model_config.model,
+                provider_name=model_cfg.provider,
+                base_url=model_cfg.base_url,
+                api_key=model_cfg.api_key,
+                model=model_cfg.model,
             )
         return self._providers[key]
 

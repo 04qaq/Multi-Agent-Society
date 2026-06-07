@@ -71,7 +71,10 @@ class LlmMoodStrategy:
                 temperature=0.3,
                 max_tokens=200,
             )
-            data = json.loads(response)
+            if isinstance(response, str):
+                data = json.loads(response)
+            else:
+                data = response
             valence = float(data.get("valence", 0.0))
             confidence = float(data.get("confidence", 0.0))
             label = str(data.get("label", "（未知）"))
