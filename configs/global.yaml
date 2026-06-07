@@ -1,0 +1,42 @@
+# Multi-Agent Society 全局配置
+app:
+  name: "Multi-Agent Society"
+  debug: true
+
+llm:
+  default_provider: openai
+  providers:
+    openai:
+      api_key: ${OPENAI_API_KEY}
+      base_url: "https://api.openai.com/v1"
+    anthropic:
+      api_key: ${ANTHROPIC_API_KEY}
+
+embedding:
+  provider: openai
+  model: text-embedding-3-small
+  dimensions: 1536
+
+database:
+  host: localhost
+  port: 5432
+  name: multi_agent_society
+  user: postgres
+  password: ${DB_PASSWORD}
+
+redis:
+  host: localhost
+  port: 6379
+
+memory:
+  working_memory_limit: 50
+  long_memory_search_top_k: 5
+  long_memory_search_threshold: 0.3
+  mood_judge_enabled: true
+  mood_judge_max_messages: 10
+  mood_judge_timeout_s: 15.0
+  memory_gating_mode: ocean
+
+scheduler:
+  auto_chat_interval: 30
+  reply_timeout: 20

@@ -1,0 +1,32 @@
+# Agent 人格配置模板
+role:
+  name: "AgentName"
+  name_reading: ""
+  role_summary: "一句话角色摘要"
+
+ocean:
+  openness: 0.5
+  conscientiousness: 0.5
+  extraversion: 0.5
+  agreeableness: 0.5
+  emotional_stability: 0.5
+
+ocean_notes: {}
+behavior_hints: []
+scenario: {}
+relationship: {}
+
+mbti:
+  strategy: fixed
+  type: INFP
+  notes: ""
+
+drives:
+  schema_version: 1
+  horizon: session
+  mission:
+    primary: "主目标"
+    secondary: ""
+    narrative: ""
+  needs: []
+  extensions: {}
