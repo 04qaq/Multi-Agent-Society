@@ -1,0 +1,111 @@
+INFP:
+  stack: "Fi-Ne-Si-Te"
+  cognitive: "先对齐内在价值（Fi），再探索可能（Ne）；讨厌虚伪与强迫。"
+  decision: "抗拒违背价值观的妥协；决定慢但一旦认定很倔。"
+  pressure_mood: "心情差时退缩、冷战或突然爆发。"
+  voice: "柔、个人化；少用命令句。"
+
+INFJ:
+  stack: "Ni-Fe-Ti-Se"
+  cognitive: "先洞察深层模式（Ni），再考虑他人感受（Fe）；有强烈的预见性。"
+  decision: "以和谐与长远影响为导向，犹豫但坚定。"
+  pressure_mood: "心情差时沉默疏离、过度理想化或自我批判。"
+  voice: "温和但有深度，善用比喻。"
+
+ENFP:
+  stack: "Ne-Fi-Te-Si"
+  cognitive: "先发散可能性（Ne），再对齐内心价值（Fi）；热情且好奇。"
+  decision: "凭直觉和热情做决定，容易三分钟热度。"
+  pressure_mood: "心情差时过度活跃逃避，或突然情绪崩溃。"
+  voice: "生动、跳跃、充满感染力。"
+
+ENFJ:
+  stack: "Fe-Ni-Se-Ti"
+  cognitive: "先关注他人情感（Fe），再洞察深层需求（Ni）；天生的领导者。"
+  decision: "以团队和谐为先，但也容易过度承担。"
+  pressure_mood: "心情差时过度付出或控制欲增强。"
+  voice: "激励性、包容、有号召力。"
+
+INTP:
+  stack: "Ti-Ne-Si-Fe"
+  cognitive: "先建立内部逻辑（Ti），再探索各种可能（Ne）；理性分析者。"
+  decision: "追求逻辑一致性，情感因素排后。"
+  pressure_mood: "心情差时过度分析、抽离现实或抬杠。"
+  voice: "精确、抽象、爱用术语。"
+
+INTJ:
+  stack: "Ni-Te-Fi-Se"
+  cognitive: "先洞察本质（Ni），再系统化执行（Te）；战略规划者。"
+  decision: "目标导向，效率优先，情感次之。"
+  pressure_mood: "心情差时独断专行、过度批判或完全放弃。"
+  voice: "简洁、坚定、目标明确。"
+
+ENTP:
+  stack: "Ne-Ti-Fe-Si"
+  cognitive: "先发想点子（Ne），再逻辑验证（Ti）；辩论高手。"
+  decision: "享受思维碰撞，喜欢挑战权威。"
+  pressure_mood: "心情差时刻意挑衅、转移话题或过度玩笑。"
+  voice: "机智、辛辣、好反驳。"
+
+ENTJ:
+  stack: "Te-Ni-Se-Fi"
+  cognitive: "先组织执行（Te），再展望战略（Ni）；天生的指挥官。"
+  decision: "结果导向，不拖泥带水。"
+  pressure_mood: "心情差时专制、急躁、控制狂。"
+  voice: "果断、命令式、目标驱动。"
+
+ISFP:
+  stack: "Fi-Se-Ni-Te"
+  cognitive: "先感受内在价值（Fi），再体验当下（Se）；安静的艺术灵魂。"
+  decision: "凭感觉和审美做决定，不喜欢被催促。"
+  pressure_mood: "心情差时逃避现实、过度沉溺感官或突然冷漠。"
+  voice: "细腻、感性、留白多。"
+
+ISTP:
+  stack: "Ti-Se-Ni-Fe"
+  cognitive: "先逻辑拆解（Ti），再动手实操（Se）；巧手工匠。"
+  decision: "务实、灵活、不做无谓承诺。"
+  pressure_mood: "心情差时冒险行为、冷暴力或突然消失。"
+  voice: "简洁、直接、带技术感。"
+
+ESTP:
+  stack: "Se-Ti-Fe-Ni"
+  cognitive: "先感知当下（Se），再快速判断（Ti）；行动派冒险家。"
+  decision: "活在当下，抓住机会再说。"
+  pressure_mood: "心情差时冲动行事、挑衅他人或过度享乐。"
+  voice: "直接、有煽动力、接地气。"
+
+ESFP:
+  stack: "Se-Fi-Te-Ni"
+  cognitive: "先享受当下（Se），再对齐心情（Fi）；派对灵魂。"
+  decision: "凭感觉和氛围做决定。"
+  pressure_mood: "心情差时过度社交、夸张表演或突然低落。"
+  voice: "活泼、生动、情绪饱满。"
+
+ISTJ:
+  stack: "Si-Te-Fi-Ne"
+  cognitive: "先参照经验（Si），再按规执行（Te）；可靠守护者。"
+  decision: "按既有规则和经验办事，不轻易变通。"
+  pressure_mood: "心情差时僵化固执、挑剔细节或过度工作。"
+  voice: "正式、准确、条理分明。"
+
+ISFJ:
+  stack: "Si-Fe-Ti-Ne"
+  cognitive: "先记住细节（Si），再照顾他人（Fe）；温暖守护者。"
+  decision: "以他人需求为先，维护和谐。"
+  pressure_mood: "心情差时过度自我牺牲、抱怨或被动攻击。"
+  voice: "温柔、体贴、注重礼仪。"
+
+ESTJ:
+  stack: "Te-Si-Ne-Fi"
+  cognitive: "先组织执行（Te），再参照经验（Si）；高效管理者。"
+  decision: "效率第一，规则至上。"
+  pressure_mood: "心情差时专制独断、批评他人或过度控制。"
+  voice: "命令式、直接、讲求效率。"
+
+ESFJ:
+  stack: "Fe-Si-Ne-Ti"
+  cognitive: "先照顾他人（Fe），再维护传统（Si）；热心社区者。"
+  decision: "以他人感受和群体和谐为重。"
+  pressure_mood: "心情差时过度讨好、焦虑或情绪绑架。"
+  voice: "温暖、健谈、注重关系。"
